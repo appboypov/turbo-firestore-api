@@ -1,0 +1,51 @@
+{
+  "name": "turbo-firestore-api",
+  "version": "0.1.1",
+  "description": "Type-safe Firestore API wrapper with CRUD, streaming, batch operations for React",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup src/index.ts --format cjs,esm --dts",
+    "dev": "tsup src/index.ts --format cjs,esm --dts --watch",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": [
+    "firebase",
+    "firestore",
+    "react",
+    "typescript",
+    "crud",
+    "streaming",
+    "hooks"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "informers": "^0.1.0",
+    "turbo-response": "^0.1.0",
+    "veto-mvvm": "^0.1.0"
+  },
+  "peerDependencies": {
+    "firebase": ">=10.0.0",
+    "react": ">=18.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.27",
+    "firebase": "^10.14.1",
+    "react": "^18.3.1",
+    "tsup": "^8.5.1",
+    "typescript": "^5.9.3",
+    "vitest": "^1.6.1"
+  }
+}
