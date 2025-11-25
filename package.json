@@ -1,6 +1,6 @@
 {
   "name": "@appboypov/turbo-firestore-api",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Type-safe Firestore API wrapper with CRUD, streaming, batch operations for React",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
