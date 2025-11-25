@@ -5,7 +5,7 @@ Type-safe Firestore API wrapper with CRUD operations, real-time streaming, and o
 ## Installation
 
 ```bash
-npm install turbo-firestore-api
+npm install @appboypov/turbo-firestore-api
 ```
 
 ### Peer Dependencies
@@ -35,9 +35,9 @@ This package uses:
 ## Quick Start
 
 ```tsx
-import { useTurboCollection, useAuthSync } from 'turbo-firestore-api';
-import { TurboFirestoreApi } from 'turbo-firestore-api';
-import { isSuccess } from 'turbo-response';
+import { useTurboCollection, useAuthSync } from '@appboypov/turbo-firestore-api';
+import { TurboFirestoreApi } from '@appboypov/turbo-firestore-api';
+import { isSuccess } from '@appboypov/turbo-response';
 
 // Define your document type
 interface UserDto {
