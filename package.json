@@ -1,6 +1,6 @@
 {
   "name": "@appboypov/turbo-firestore-api",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Type-safe Firestore API wrapper with CRUD, streaming, batch operations for React",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
@@ -32,9 +32,9 @@
   ],
   "license": "MIT",
   "dependencies": {
-    "@appboypov/informers": "^0.1.3",
+    "@appboypov/informers": "^1.0.0",
     "@appboypov/turbo-response": "^0.1.2",
-    "@appboypov/veto-mvvm": "^0.1.2"
+    "@appboypov/veto-mvvm": "^1.0.0"
   },
   "peerDependencies": {
     "firebase": ">=10.0.0",

@@ -1,7 +1,7 @@
 // Re-export from dependency packages for convenience
-export * from 'turbo-response';
-export * from 'informers';
-export * from 'veto-mvvm';
+export * from '@appboypov/turbo-response';
+export * from '@appboypov/informers';
+export * from '@appboypov/veto-mvvm';
 
 // Firestore-specific exceptions
 export * from './exceptions/TurboFirestoreException';

@@ -28,7 +28,7 @@ import {
   SnapshotOptions,
 } from 'firebase/firestore';
 
-import { TurboResponse, success, fail } from 'turbo-response';
+import { TurboResponse, success, fail } from '@appboypov/turbo-response';
 import { TurboFirestoreException } from '../exceptions/TurboFirestoreException';
 import { TurboApiVars } from '../models/TurboApiVars';
 import { TurboTimestampType } from '../enums/TurboTimestampType';

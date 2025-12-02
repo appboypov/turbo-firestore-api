@@ -1,6 +1,6 @@
 import { useState, useEffect, useCallback, useRef } from 'react';
 import { TurboFirestoreApi } from '../api/TurboFirestoreApi';
-import { TurboResponse, success, fail, isSuccess } from 'turbo-response';
+import { TurboResponse, success, fail, isSuccess } from '@appboypov/turbo-response';
 import { TurboWriteableId } from '../abstracts/TurboWriteableId';
 import { TurboAuthVars } from '../models/TurboAuthVars';
 import { TurboFirestoreException } from '../exceptions/TurboFirestoreException';

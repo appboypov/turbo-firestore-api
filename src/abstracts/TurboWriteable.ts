@@ -1,4 +1,4 @@
-import type { TurboResponse } from 'turbo-response';
+import type { TurboResponse } from '@appboypov/turbo-response';
 
 /**
  * Interface for objects that can be written to Firestore.
