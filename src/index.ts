@@ -26,7 +26,7 @@ export * from './enums/TurboSearchTermType';
 export * from './api/TurboFirestoreApi';
 
 // Services
-export * from './services/FirebaseAuthService';
+export * from './services/index';
 
 // Hooks
 export * from './hooks/useTurboCollection';
